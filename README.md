@@ -36,4 +36,4 @@ This project is a comprehensive Power BI dashboard that visualizes key statistic
 > See the `Paris 2024.pdf` for a full visual overview of the dashboard.
 
 ## 📬 Contact
-Created by [**Mithun Adhe**] — For any inquiries, feel free to reach out via LinkedIn or email.
+Created by **Mithun Adhe**
