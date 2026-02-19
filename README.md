@@ -1,39 +1,248 @@
-# Paris 2024 Olympics Dashboard (Power BI)
+# 🏅 Paris 2024 Olympics Analytics Dashboard (Power BI)
 
-This project is a comprehensive Power BI dashboard that visualizes key statistics and insights from the upcoming **Paris 2024 Olympics**. Created by **Mithun Adhe**, the dashboard presents data on:
+An interactive Power BI dashboard designed to explore **Olympic athletes, medals, countries, and historical trends (1896–2024)**.
 
-- 🏅 **Medal Distribution by Country & Gender**
-- 🧍‍♂️🧍‍♀️ **Athlete Participation by Gender and Age**
-- 🌍 **Country-Wise Performance Overview**
-- 📊 **Historical Medal Trends (1896 to 2024)**
+This project demonstrates **data storytelling, interactive analytics, and dashboard design** using real-world Olympic-style data.
 
-## 📁 Files Included
-- `Paris 2024.pbix`: The original Power BI dashboard file.
-- `Paris 2024.pdf`: A PDF export of the dashboard visuals for easy preview.
+---
 
-## 📌 Key Highlights
+# 📌 Project Overview
+
+The Olympic Games generate massive datasets covering athletes, countries, teams, and medal performance across decades.
+
+This project converts historical Olympic data into a **modern interactive analytics dashboard** that helps users:
+
+- Understand medal performance globally 🌍
+- Analyze athlete demographics 🧍‍♂️🧍‍♀️
+- Compare countries across Olympic history 🏅
+- Explore trends from **1896 to 2024**
+
+The dashboard is designed to be **recruiter-ready and business-style**, showcasing Power BI and data visualization skills.
+
+---
+
+# ❗ Problem Statement
+
+Sports analytics is often presented in static reports that make it difficult to:
+
+- Compare countries and medal performance
+- Analyze gender participation trends
+- Understand athlete demographics
+- Explore historical Olympic trends
+- Identify top-performing nations
+
+This project solves the problem using an **interactive Power BI dashboard** that enables dynamic exploration of Olympic data.
+
+---
+
+# 🎯 Project Objectives
+
+The main goals of this project were to:
+
+- Analyze Olympic medal distribution by country and gender
+- Explore athlete participation by age and gender
+- Visualize global Olympic performance
+- Study historical medal trends (1896–2024)
+- Build a multi-page interactive Power BI dashboard
+
+---
+
+# 📊 Dataset Information
+
+📂 **Dataset Source:** Historical Olympic records (simulated & cleaned for analysis)
+
+The dataset includes:
+
+- Athlete participation records
+- Country participation data
+- Medal counts (Gold, Silver, Bronze)
+- Olympic Games history (1896–2024)
+- Age and gender demographics
+
+---
+
+# 🛠️ Tools & Technologies Used
+
+| Tool | Purpose |
+|------|--------|
+| Power BI | Dashboard & Visualization |
+| Excel / CSV | Data preprocessing |
+| DAX | Measures & KPIs |
+| Data Modeling | Relationships & analytics |
+
+---
+
+# 🔄 Project Workflow
+
+1️⃣ Data Collection & Cleaning  
+2️⃣ Data Modeling in Power BI  
+3️⃣ DAX Measures Creation  
+4️⃣ Dashboard UX/UI Design  
+5️⃣ Insight Generation  
+6️⃣ Dashboard Export & Documentation  
+
+---
+
+# 🧹 Data Cleaning & Preparation
+
+Key preprocessing steps:
+
+- Removed duplicate athlete entries
+- Standardized country names and codes
+- Cleaned medal classification data
+- Created calculated metrics:
+  - Total medals by country
+  - Medal distribution by gender
+  - Athlete participation trends
+- Built relationships across fact and dimension tables
+
+---
+
+# 🔍 Exploratory Data Analysis (EDA)
+
+The EDA phase focused on answering:
+
+- Which countries dominate Olympic medals?
+- How has participation changed over time?
+- What is the gender distribution of athletes?
+- Which age groups dominate the Olympics?
+- How have medals evolved historically?
+
+---
+
+# 📈 Key Insights & Findings
+
+### 🧍‍♂️ Athlete Participation
+
 - Total Athletes: **11,110**
-  - Male: **5,655**
-  - Female: **5,455**
-- Medal Totals:
-  - Gold: **731** (368 male, 363 female)
-  - Silver: **741** (371 male, 370 female)
-  - Bronze: **791** (402 male, 389 female)
-- Top Performing Country: **United States**
+- Male Athletes: **5,655**
+- Female Athletes: **5,455**
 
-## 🔍 Dashboard Features
-- Interactive filters for country and year
-- Gender-based medal distribution
-- Athlete demographics by age group
-- Country medal performance over time
+👉 Gender participation is nearly balanced in modern Olympics.
 
-## 🛠 Built With
-- Microsoft **Power BI Desktop**
-- Data from historical Olympic records (mocked/simulated for visualization purposes)
+---
 
-## 📸 Preview
+### 🏅 Medal Distribution
 
-> See the `Paris 2024.pdf` for a full visual overview of the dashboard.
+| Medal | Total | Male | Female |
+|------|------|------|------|
+| Gold | 731 | 368 | 363 |
+| Silver | 741 | 371 | 370 |
+| Bronze | 791 | 402 | 389 |
 
-## 📬 Contact
-Created by **Mithun Adhe**
+Key insight:
+- Medal wins are **almost equally distributed by gender**, showing progress in gender equality.
+
+---
+
+### 🌍 Country Performance
+
+- **Top Performing Country:** United States 🇺🇸
+- Countries analyzed: **206**
+- Teams analyzed: **1698**
+
+---
+
+### 🎂 Athlete Age Insights
+
+Most athletes fall into the **21–30 age group**, indicating peak athletic performance years.
+
+---
+
+### 📊 Historical Olympic Trends
+
+- Medal counts increased significantly over decades
+- Participation growth accelerated after 1980
+- Olympics have become increasingly global
+
+---
+
+# 📊 Dashboard Pages & Features
+
+## 🏠 Overview Page
+- Medal totals (Gold, Silver, Bronze)
+- Country performance comparison
+- Global participation metrics
+- World map visualization
+
+## 🧍 Athletes Page
+- Athlete participation by age & gender
+- Gender-wise medal breakdown
+- Athlete filtering by name
+
+## 🌍 Country Page
+- Country-wise medal performance
+- Global Olympic participation map
+- Top performer analysis
+
+## 📅 Historical Page
+- Medal trends from **1896–2024**
+- Year-wise Olympic performance analysis
+
+---
+
+# ✅ Final Outcome
+
+A multi-page Power BI dashboard that:
+
+✔ Explains Olympic data clearly  
+✔ Demonstrates strong Power BI skills  
+✔ Highlights data storytelling ability  
+✔ Shows advanced dashboard design  
+
+---
+
+# 💼 Real-World Value
+
+This project demonstrates skills useful for:
+
+- Sports analytics
+- Data visualization roles
+- Business intelligence roles
+- Data storytelling positions
+
+---
+
+# ▶️ How to Use
+
+1. Download this repository
+2. Open Power BI Desktop
+3. Open the file:
+
+Paris 2024.pbix
+
+
+4. Click **Refresh Data**
+5. Explore the dashboard interactively
+
+---
+
+# 🖼️ Dashboard Screenshots
+
+### 🏠 Overview Page
+![Overview](OverviewDashboard.jpg)
+
+### 🧍 Athletes Page
+![Athletes](AthletesDashboard.jpg)
+
+### 🌍 Country Page
+![Country](CountryDashboard.jpg)
+
+### 📅 Historical Page
+![Historical](HistoricalDashboard.jpg)
+
+
+
+
+---
+
+# 👨‍💻 Author
+
+**Mithun Adhe**  
+Data Analyst | Power BI Developer  
+
+🔗 GitHub: https://github.com/MithunAdhe
+
+---
+
+⭐ If you like this project, consider giving it a star!
