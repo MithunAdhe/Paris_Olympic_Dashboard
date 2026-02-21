@@ -6,6 +6,13 @@ This project demonstrates **data storytelling, interactive analytics, and dashbo
 
 ---
 
+# Live Dashboard
+
+https://app.powerbi.com/view?r=eyJrIjoiY2UwZGNjZWMtZmZlNi00Yjg4LThiNjEtODMxNDU0Njc4YjNjIiwidCI6IjUzOTJmMjExLWQ5NzAtNGNkZS1hNDM2LWMxZDViZmE1Nzg3ZiJ9
+
+
+---
+
 # 📌 Project Overview
 
 The Olympic Games generate massive datasets covering athletes, countries, teams, and medal performance across decades.
